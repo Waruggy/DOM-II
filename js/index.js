@@ -8,7 +8,7 @@ allParagraphs = document.querySelectorAll('p');
 allExpeditionsTitle = document.querySelectorAll('.destination h4');
 footer = document.querySelector('.footer');
 
-funBusHeading.addEventListener('mouseover', function () {
+funBusHead.addEventListener('mouseover', function () {
     this.classList.add('funBusHeading');
 });
 
