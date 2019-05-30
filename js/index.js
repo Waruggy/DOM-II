@@ -9,11 +9,11 @@ allExpeditionsTitle = document.querySelectorAll('.destination h4');
 footer = document.querySelector('.footer');
 
 funBusHead.addEventListener('mouseover', function () {
-    this.classList.add('funBusHeading');
+    this.classList.add('funBusHead');
 });
 
 funBusHead.addEventListener('mouseleave', function () {
-    this.class.remove('funBusHeading');
+    this.class.remove('funBusHead');
 });
 
 navBar.addEventListener('keydown', function () {
@@ -49,15 +49,6 @@ allExpeditionsTitle.forEach(node => {
     node.addEventListener('mouseover', function (event) {
         event.target.style.color = "orange";
     });
-});
-
-allButtons.forEach(node => {
-    node.addEventListener('dblclick', function () {
-        let name = prompt('Enter Name');
-        console.log(name + ' you are signed up!');
-    });
-
-    event.target.style.color = "aqua";
 });
 
 footer.addEventListener('contextmenu', function () {
